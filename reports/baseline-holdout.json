@@ -1,0 +1,167 @@
+{
+  "method": "lexical-v1",
+  "split": "holdout",
+  "dataset_sha256": "df0e3d124b5443c11bdb30296eaf5ef948dbb98381bc90e953faada27a06b54f",
+  "rule_sha256": "d48e257dd7c3ae039a0cdda010fcc279e1564d2ce005db67efb8c9fbcde8b385",
+  "samples": 16,
+  "accuracy": 0.75,
+  "median_latency_ms": 0.0098,
+  "per_class": {
+    "access": {
+      "support": 3,
+      "precision": 1.0,
+      "recall": 0.667,
+      "f1": 0.8
+    },
+    "ambiguous": {
+      "support": 2,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.667
+    },
+    "billing": {
+      "support": 3,
+      "precision": 0.667,
+      "recall": 0.667,
+      "f1": 0.667
+    },
+    "bug": {
+      "support": 3,
+      "precision": 1.0,
+      "recall": 0.667,
+      "f1": 0.8
+    },
+    "feature": {
+      "support": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "unknown": {
+      "support": 3,
+      "precision": 0.667,
+      "recall": 0.667,
+      "f1": 0.667
+    }
+  },
+  "outcomes": [
+    {
+      "id": "SYN-025",
+      "expected": "billing",
+      "predicted": "billing",
+      "correct": true,
+      "latency_ms": 0.0662
+    },
+    {
+      "id": "SYN-026",
+      "expected": "billing",
+      "predicted": "billing",
+      "correct": true,
+      "latency_ms": 0.0161
+    },
+    {
+      "id": "SYN-027",
+      "expected": "access",
+      "predicted": "access",
+      "correct": true,
+      "latency_ms": 0.0115
+    },
+    {
+      "id": "SYN-028",
+      "expected": "access",
+      "predicted": "access",
+      "correct": true,
+      "latency_ms": 0.0096
+    },
+    {
+      "id": "SYN-029",
+      "expected": "bug",
+      "predicted": "bug",
+      "correct": true,
+      "latency_ms": 0.0092
+    },
+    {
+      "id": "SYN-030",
+      "expected": "bug",
+      "predicted": "bug",
+      "correct": true,
+      "latency_ms": 0.0093
+    },
+    {
+      "id": "SYN-031",
+      "expected": "feature",
+      "predicted": "feature",
+      "correct": true,
+      "latency_ms": 0.0109
+    },
+    {
+      "id": "SYN-032",
+      "expected": "feature",
+      "predicted": "feature",
+      "correct": true,
+      "latency_ms": 0.0089
+    },
+    {
+      "id": "SYN-033",
+      "expected": "unknown",
+      "predicted": "unknown",
+      "correct": true,
+      "latency_ms": 0.009
+    },
+    {
+      "id": "SYN-034",
+      "expected": "unknown",
+      "predicted": "unknown",
+      "correct": true,
+      "latency_ms": 0.01
+    },
+    {
+      "id": "SYN-035",
+      "expected": "ambiguous",
+      "predicted": "ambiguous",
+      "correct": true,
+      "latency_ms": 0.0108
+    },
+    {
+      "id": "SYN-036",
+      "expected": "ambiguous",
+      "predicted": "ambiguous",
+      "correct": true,
+      "latency_ms": 0.01
+    },
+    {
+      "id": "SYN-037",
+      "expected": "billing",
+      "predicted": "unknown",
+      "correct": false,
+      "latency_ms": 0.0086
+    },
+    {
+      "id": "SYN-038",
+      "expected": "access",
+      "predicted": "ambiguous",
+      "correct": false,
+      "latency_ms": 0.0101
+    },
+    {
+      "id": "SYN-039",
+      "expected": "bug",
+      "predicted": "ambiguous",
+      "correct": false,
+      "latency_ms": 0.0092
+    },
+    {
+      "id": "SYN-040",
+      "expected": "unknown",
+      "predicted": "billing",
+      "correct": false,
+      "latency_ms": 0.0089
+    }
+  ],
+  "limitations": [
+    "Small hand-authored synthetic dataset; no real-world generalization claim.",
+    "Holdout is public and has not been independently labeled; it is not a blind benchmark.",
+    "Rules do not understand negation or semantics. No LLM has been evaluated.",
+    "Timing measures in-process classification, excluding HTTP and frontend."
+  ]
+}

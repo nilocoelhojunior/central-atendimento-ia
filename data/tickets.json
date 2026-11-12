@@ -1,0 +1,282 @@
+[
+  {
+    "id": "SYN-001",
+    "split": "dev",
+    "label": "billing",
+    "subject": "Preciso da segunda via do boleto",
+    "body": "Não encontro o documento deste mês."
+  },
+  {
+    "id": "SYN-002",
+    "split": "dev",
+    "label": "billing",
+    "subject": "Solicitar reembolso",
+    "body": "Cancelei o serviço ontem."
+  },
+  {
+    "id": "SYN-003",
+    "split": "dev",
+    "label": "billing",
+    "subject": "Minha fatura está incorreta",
+    "body": "O valor é diferente do plano contratado."
+  },
+  {
+    "id": "SYN-004",
+    "split": "dev",
+    "label": "billing",
+    "subject": "Como acompanhar o estorno?",
+    "body": "Já solicitei o cancelamento."
+  },
+  {
+    "id": "SYN-005",
+    "split": "dev",
+    "label": "access",
+    "subject": "Esqueci minha senha",
+    "body": "Preciso recuperar a conta."
+  },
+  {
+    "id": "SYN-006",
+    "split": "dev",
+    "label": "access",
+    "subject": "Login bloqueado",
+    "body": "Não consigo abrir minha conta."
+  },
+  {
+    "id": "SYN-007",
+    "split": "dev",
+    "label": "access",
+    "subject": "Problema de autenticação",
+    "body": "Meu código expirou."
+  },
+  {
+    "id": "SYN-008",
+    "split": "dev",
+    "label": "access",
+    "subject": "Como configurar 2FA?",
+    "body": "Quero proteger minha conta."
+  },
+  {
+    "id": "SYN-009",
+    "split": "dev",
+    "label": "bug",
+    "subject": "A página não carrega",
+    "body": "Fica girando sem terminar."
+  },
+  {
+    "id": "SYN-010",
+    "split": "dev",
+    "label": "bug",
+    "subject": "Tela branca no painel",
+    "body": "Ao abrir o navegador."
+  },
+  {
+    "id": "SYN-011",
+    "split": "dev",
+    "label": "bug",
+    "subject": "Aplicativo travando",
+    "body": "Acontece ao abrir a lista."
+  },
+  {
+    "id": "SYN-012",
+    "split": "dev",
+    "label": "bug",
+    "subject": "Serviço indisponível",
+    "body": "Desde a última atualização."
+  },
+  {
+    "id": "SYN-013",
+    "split": "dev",
+    "label": "feature",
+    "subject": "Sugestão de relatório",
+    "body": "Um resumo por período seria útil."
+  },
+  {
+    "id": "SYN-014",
+    "split": "dev",
+    "label": "feature",
+    "subject": "Adicionar exportação CSV",
+    "body": "Precisamos enviar os dados para análise."
+  },
+  {
+    "id": "SYN-015",
+    "split": "dev",
+    "label": "feature",
+    "subject": "Nova funcionalidade de busca",
+    "body": "Pesquisar por número do chamado."
+  },
+  {
+    "id": "SYN-016",
+    "split": "dev",
+    "label": "feature",
+    "subject": "Integração com calendário",
+    "body": "Queremos sincronizar os agendamentos."
+  },
+  {
+    "id": "SYN-017",
+    "split": "dev",
+    "label": "unknown",
+    "subject": "Obrigado pelo atendimento",
+    "body": "Tudo resolvido por aqui."
+  },
+  {
+    "id": "SYN-018",
+    "split": "dev",
+    "label": "unknown",
+    "subject": "Qual é o horário da equipe?",
+    "body": "Gostaria de falar com uma pessoa."
+  },
+  {
+    "id": "SYN-019",
+    "split": "dev",
+    "label": "unknown",
+    "subject": "Bom dia, equipe",
+    "body": "Tenho uma dúvida sobre o plano."
+  },
+  {
+    "id": "SYN-020",
+    "split": "dev",
+    "label": "unknown",
+    "subject": "Quero encerrar meu cadastro",
+    "body": "Podem me orientar?"
+  },
+  {
+    "id": "SYN-021",
+    "split": "dev",
+    "label": "ambiguous",
+    "subject": "Erro no boleto",
+    "body": "Não sei qual equipe pode verificar."
+  },
+  {
+    "id": "SYN-022",
+    "split": "dev",
+    "label": "ambiguous",
+    "subject": "Falha no login",
+    "body": "O serviço não responde."
+  },
+  {
+    "id": "SYN-023",
+    "split": "dev",
+    "label": "ambiguous",
+    "subject": "Sugestão sobre a fatura",
+    "body": "Precisamos analisar os dois assuntos."
+  },
+  {
+    "id": "SYN-024",
+    "split": "dev",
+    "label": "ambiguous",
+    "subject": "Adicionar recuperação de senha",
+    "body": "É um novo fluxo para o produto."
+  },
+  {
+    "id": "SYN-025",
+    "split": "holdout",
+    "label": "billing",
+    "subject": "Cobrança duplicada",
+    "body": "O mesmo valor veio duas vezes."
+  },
+  {
+    "id": "SYN-026",
+    "split": "holdout",
+    "label": "billing",
+    "subject": "Pagamento pendente",
+    "body": "A transferência foi feita ontem."
+  },
+  {
+    "id": "SYN-027",
+    "split": "holdout",
+    "label": "access",
+    "subject": "Não consigo entrar na conta",
+    "body": "Podem verificar?"
+  },
+  {
+    "id": "SYN-028",
+    "split": "holdout",
+    "label": "access",
+    "subject": "Redefinir SENHA",
+    "body": "Meu endereço foi confirmado."
+  },
+  {
+    "id": "SYN-029",
+    "split": "holdout",
+    "label": "bug",
+    "subject": "Erro ao abrir o painel",
+    "body": "O botão não responde."
+  },
+  {
+    "id": "SYN-030",
+    "split": "holdout",
+    "label": "bug",
+    "subject": "Falha ao salvar",
+    "body": "O formulário fecha sozinho."
+  },
+  {
+    "id": "SYN-031",
+    "split": "holdout",
+    "label": "feature",
+    "subject": "Gostaria que o painel tivesse filtros",
+    "body": "Precisamos selecionar por responsável."
+  },
+  {
+    "id": "SYN-032",
+    "split": "holdout",
+    "label": "feature",
+    "subject": "Melhoria no menu",
+    "body": "Pode ficar mais simples para navegar."
+  },
+  {
+    "id": "SYN-033",
+    "split": "holdout",
+    "label": "unknown",
+    "subject": "Recebi o contato de vocês",
+    "body": "Quem pode me orientar?"
+  },
+  {
+    "id": "SYN-034",
+    "split": "holdout",
+    "label": "unknown",
+    "subject": "O relatório de ferro chegou",
+    "body": "Quero confirmar o recebimento."
+  },
+  {
+    "id": "SYN-035",
+    "split": "holdout",
+    "label": "ambiguous",
+    "subject": "Reembolso e senha",
+    "body": "São dois assuntos na mesma solicitação."
+  },
+  {
+    "id": "SYN-036",
+    "split": "holdout",
+    "label": "ambiguous",
+    "subject": "Erro na cobrança",
+    "body": "Não sabemos onde começa o problema."
+  },
+  {
+    "id": "SYN-037",
+    "split": "holdout",
+    "label": "billing",
+    "subject": "O valor veio duas vezes",
+    "body": "Podem devolver uma das parcelas?"
+  },
+  {
+    "id": "SYN-038",
+    "split": "holdout",
+    "label": "access",
+    "subject": "Não há erro no sistema",
+    "body": "Só preciso recuperar minha senha."
+  },
+  {
+    "id": "SYN-039",
+    "split": "holdout",
+    "label": "bug",
+    "subject": "A senha está correta",
+    "body": "Mas o aplicativo fica travando."
+  },
+  {
+    "id": "SYN-040",
+    "split": "holdout",
+    "label": "unknown",
+    "subject": "Não preciso de reembolso",
+    "body": "Só passei para agradecer."
+  }
+]
